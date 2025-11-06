@@ -13,19 +13,30 @@
             #personal { 
                 font-size : 40px; 
             } 
+            form input { 
+                background-color: aqua;
+            } /* all input in form */
+            form > input:hover {
+                background-color: aquamarine;
+            } /*only the child input in form which is the first one*/
         </style> 
     </head> 
     <body> 
         <form> 
-            <p>Enter the name</p><input type = "text"/> 
+            <p>Enter the name</p>
+            <input type = "text"/> 
 
             <div class="name_para"> 
-                Enter the age <input type="text"/> 
+                Enter the age 
+                <input type="text"/> 
             </div> 
 
             <div id="personal"> 
-                Enter roll no. <input type="text"/> 
+                Enter roll no. 
+                <input type="text"/> 
             </div> 
         </form> 
     </body> 
     </html>
+<!--tr: nth-child(even)-->
+<!--form p::firt-letter-->
