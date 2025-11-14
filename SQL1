@@ -1,8 +1,0 @@
-create table student (
-stud_id varchar(10),
-name char(20),
-primary key (stud_id));
-
-insert into student (stud_id, name) values ('S111','Sid');
-
-Select * from student
