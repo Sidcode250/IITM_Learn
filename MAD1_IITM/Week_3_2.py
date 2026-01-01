@@ -5,4 +5,6 @@ Hello {name}
 def main():
     print(TEMPLATE.format(name = "Sid"))
 
-main()
+if __name__ == "__main__":
+    main()
+    
