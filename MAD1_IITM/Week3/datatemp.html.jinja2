@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>surname</th>
+                <th>rollno</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for dat in data%}
+            <tr>
+                <td>{{dat["name"]}}</td>
+                <td>{{dat["surname"]}}</td>
+                <td>{{dat["rollno"]}}</td>
+            </tr>
+            {%endfor%}
+        </tbody>
+    </table>
+</body>
